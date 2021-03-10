@@ -28,7 +28,7 @@
                         <configuration>
                             <archive>
                                 <manifest>
-                                    <mainClass>calculator.Calculator</mainClass>
+                                    <mainClass>Calculator</mainClass>
                                 </manifest>
                             </archive>
                             <descriptorRefs>
