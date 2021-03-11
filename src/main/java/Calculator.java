@@ -23,7 +23,7 @@ public class Calculator {
                         a= sc.nextDouble();
                         c=sqrt(a);
                         if(c<0)
-                            System.out.println("Invalid number");
+                            System.out.println("Number can not be negetive");
                         else
                             System.out.println("Answer is: "+c);
                         break;
@@ -31,7 +31,7 @@ public class Calculator {
                         double a= sc.nextDouble();
                         c=log(a);
                         if(c<0)
-                             System.out.println("Invalid number");
+                             System.out.println("Number can not be less than or equal to zero");
                         else
                              System.out.println("Answer is: "+ c);
                         break;
@@ -48,7 +48,7 @@ public class Calculator {
                         BigInteger fac= fact(f);
                         int test= fac.compareTo(new BigInteger("0"));
                         if(test<0)
-                            System.out.println("Invalid number");
+                            System.out.println("Number can not be negetive");
                         else
                             System.out.println("Answer is: "+ fac);
                         break;
