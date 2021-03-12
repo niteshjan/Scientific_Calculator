@@ -1,6 +1,6 @@
 ---
 - name: Pull docker image
-  hosts: all
+  hosts: virtual
   tasks:
     - name: Pull image of working project from dockerhub
       docker_image:

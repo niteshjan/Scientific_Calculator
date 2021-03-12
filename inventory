@@ -1,2 +1,2 @@
 [virtual]
-172.17.0.2 ansible_ssh_user=jain ansible_ssh_pass=1234
+10.137.160.1 ansible_user=jain1
