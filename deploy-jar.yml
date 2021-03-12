@@ -1,9 +1,0 @@
----
-- name: Deploy a jar file
-  hosts: all
-  tasks:
-    - name: Copy jar file to home directory
-      copy:
-        src: ./target/Calculator_Mini-1.0-SNAPSHOT.jar
-        dest: ~/
-        mode: '0755'
