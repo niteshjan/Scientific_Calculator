@@ -1,4 +1,4 @@
 FROM openjdk:8
-COPY ./target/springLearning-0.0.1-SNAPSHOT.jar ./
+COPY ./target/Calculator_Mini-1.0-SNAPSHOT.jar ./
 WORKDIR ./
-CMD ["java", "-jar", "springLearning-0.0.1-SNAPSHOT.jar"]
+CMD ["java", "-cp", "Calculator_Mini-1.0-SNAPSHOT.jar", "Calculator"]
